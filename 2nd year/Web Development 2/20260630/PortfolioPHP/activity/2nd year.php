@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cadorna's Portfolio | 2nd Year</title>
+            <link rel="stylesheet" href="../style.css">
+            <link rel="icon" type="image/jpg" href="../pictures/logo.jpg">
+</head>
+
+<body>
+
+<header class="header">
+
+    <div class="header-left">
+        <img src="../pictures/logo.jpg"
+        alt="Portfolio Logo"
+        class="logo">
+
+        <h1>Cadorna's Portfolio</h1>
+    </div>
+
+    <nav class="nav-box">
+        <a href="../index.php">Home</a>
+        <a href="../about.php">About</a>
+        <a href="../project.php">Project</a>
+        <a href="../contact.php">Contact</a>
+    </nav>
+
+</header>
+
+<br>
+
+<h2 style="background-color: #cbbfa4;">Project</h2>
+
+<p>Select the year of your choice</p>
+
+<br>
+
+<nav class="nav-box">
+    <a href="./1st year.php">1st year</a>
+    <a href="./2nd year.php">2nd year</a>
+    <a href="./3rd year.php">3rd year</a> 
+    <a href="./4th year.php">4th year</a>
+</nav>
+
+<br>
+
+<h2 style="background-color: #e8e3d8; border-bottom: 5px groove;">2nd year: Sprouting of the seeed</h2>
+
+<p class="unbold-text"> As we hop into our 2nd year as a computer science students, we were able to further expand
+    our knowledge through the means of database management system such as the making, using, and activities involving 
+    frontend and backend. But not only that, it helped me as well on how to design blog or e-commerce websites, and 
+    apply the concepts and fundamentals to the system or program we are working on. 
+</p>
+
+<hr>
+
+<section class="subjects">
+
+    <h2>Major Subjects</h2>
+
+    <article>
+        <h3>1st Semester</h3>
+            <ul>
+                <li><b>Data Structures and Algorithm:</b> Mr. Kerwin Fortes</li>
+                <li><b>Operating Systems:</b> Ms. Sheryl Calabig</li>
+                <li><b>Objected-Oriented Programming:</b> Mr. Paul Ocampo</li>
+                <li><b>Advanced Database Systems:</b> Mr. Paul Ocampo</li>
+            </ul>
+    </article>
+
+    <article>
+        <h3>2nd Semester</h3>
+            <ul>
+                <li><b>Discrete Structures:</b> Mr. Kerwin Fortes</li>
+                <li><b>Information Assurance and Security:</b> Ms. Rhej Cachero</li>
+                <li><b>Networks and Communication:</b> Ms. Sheryl Calabig</li>
+                <li><b>Web Development 1:</b> Ms. Sheryl Calabig</li>
+            </ul>
+    </article>
+
+    <article>
+        <h3>Summer</h3>
+            <ul>
+                <li><b>Software Engineering:</b> Engr. Henry De Guzman</li>
+                <li><b>Web Development 2:</b> Engr. Henry De Guzman</li>
+            </ul>
+    </article>
+
+</section>
+
+<hr>
+
+<section class="activities">
+
+    <h2>Activities</h2>
+
+    <nav>
+        <a href="https://2024-0014.wixsite.com/my-site-1" target="_blank">Static wix e-commerce website</a>
+        <a href="https://2024-0014.wixsite.com/life-of-st" target="_blank">Blog wix website about the life of St. Paul</a>
+        <a href="https://2024-0014.wixsite.com/st-paul-university" target="_blank">School website with e-commerce</a>
+        <a href="biodata/Biodata.html" target="_blank">Basic Biodata HTML Page</a>
+        <a href="ecommerce-site/index.html" target="_blank">Static e-commerce site</a>
+    </nav>
+</section>
+
+<footer class="footer">
+
+<p>2026 | Cadorna's Portfolio</p>
+
+<p class="footer-text">Computer Science Student • Saint Paul University Manila</p>
+
+</footer>
+
+</body>
+</html>
