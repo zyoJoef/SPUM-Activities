@@ -1,0 +1,4 @@
+com\example\mtescores\MteScoreController.class
+com\example\mtescores\MteScore.class
+com\example\mtescores\MteScoreRepository.class
+com\example\mtescores\MteScoresApplication.class
