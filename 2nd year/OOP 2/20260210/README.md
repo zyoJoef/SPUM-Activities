@@ -23,3 +23,9 @@ Create a Springboot application that can peform these function on the data above
 2. Add entries (thru an add button) 
 
 There is no need for a login account to access the application
+
+<hr>
+
+Note: 
+<p>demo-0.0.1-SNAPSHOT.jar was removed from this repository, since it is around
+64MB and Github itself doesn't allow file size above 25MB</p>
