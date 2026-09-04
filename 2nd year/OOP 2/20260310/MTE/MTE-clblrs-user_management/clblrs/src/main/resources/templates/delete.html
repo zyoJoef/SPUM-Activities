@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Delete User</title>
+    <link rel="stylesheet" th:href="@{/crud.css}">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Delete User</h2>
+        </div>
+
+        <p>Are you sure you want to delete <strong th:text="${user.firstName + ' ' + user.lastName}"></strong>?</p>
+
+        <div style="margin-top: 20px;">
+            <a th:href="@{'/delete/execute/' + ${user.id}}">
+                <button style="background-color: #ff4d4d; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer;">Yes, Delete</button>
+            </a>
+
+            <a th:href="@{/users}">
+                <button type="button" style="background-color: #6c757d; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer; margin-left: 10px;">Cancel</button>
+            </a>
+        </div>
+    </div>
+</body>
+</html>

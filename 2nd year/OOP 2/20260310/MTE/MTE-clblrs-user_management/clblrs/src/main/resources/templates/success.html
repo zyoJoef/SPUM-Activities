@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title>User Dashboard</title>
+    <meta charset="UTF-8">
+
+    <!-- Spring Boot CSS link -->
+    <link rel="stylesheet" th:href="@{dashboard.css}">
+</head>
+<body>
+        <div class="container text-center">
+            <a class="card pink">
+            <h1>Create Successful!!!</h1>
+            </a>
+            <br>
+               <a th:href="@{/}" class="card pink">
+                    <h2>Go back to Home</h2>
+                    <span>➜</span>
+             </a>
+        </div>
+</body>
+</html>
