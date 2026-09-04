@@ -1,0 +1,5 @@
+com\mycompany\timeclient\TimeClient.class
+com\mycompany\timeclient\DigitalClockClient.class
+com\mycompany\timeclient\TimeServer.class
+com\mycompany\timeclient\LoggerClient.class
+TimeClient.class
