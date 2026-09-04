@@ -1,0 +1,159 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Header and Navigation */
+header {
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Logo as image - LARGER size */
+.logo {
+    height: 80px;  /* Increased from 50px for better visibility */
+    width: auto;   /* Maintains aspect ratio */
+    max-height: 90px;
+    min-height: 60px;
+    object-fit: contain;
+    object-position: left center;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+}
+
+.nav-menu li {
+    margin-left: 2rem;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-menu a:hover {
+    color: #008000;
+}
+
+/* Rest of your CSS remains the same */
+.banner {
+    background: linear-gradient(rgba(0,128,0,0.8), rgba(0,150,0,0.8)), url('images/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 4rem 5%;
+    color: white;
+}
+
+.banner h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.banner p {
+    font-size: 1.3rem;
+}
+
+.products {
+    max-width: 1200px;
+    margin: 3rem auto;
+    padding: 0 5%;
+    text-align: center;
+}
+
+.products h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #333;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.product {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.product:hover {
+    transform: translateY(-5px);
+}
+
+.product img {
+    width: 100%;
+    height: 220px;
+    object-fit: contain;
+    object-position: center;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.product h3 {
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+}
+
+.product p {
+    font-size: 1.2rem;
+    color: #007bff;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 3rem;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .nav-menu {
+        margin-top: 1rem;
+    }
+
+    .nav-menu li {
+        margin: 0 1rem;
+    }
+
+    .banner h1 {
+        font-size: 2rem;
+    }
+
+    .logo {
+        height: 40px; /* Smaller logo on mobile */
+    }
+}
