@@ -6,3 +6,5 @@ Semester Duration:
   <li>2nd Semester: January - May </li>
   <li>Summer/Special Term: June - July</li>
 </ul>
+
+For S.Y. (School Year) 2024-2028
